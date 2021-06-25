@@ -1,0 +1,13 @@
+version: "3"
+services:
+  js_server:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: api_server
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./server.js:/myapp/server.js
+      - ./db.json:/myapp/db.json
+    command: node server.js

@@ -1,0 +1,20 @@
+{
+  "dummy_resources": [
+    {
+      "id": 1,
+      "status": 0,
+      "message": "success"
+    },
+    {
+      "id": 2,
+      "status": 1,
+      "message": "error"
+    },
+    {
+      "id": 3,
+      "type": "string",
+      "result": "10001",
+      "description": "text/plain response"
+    }
+  ]
+}
